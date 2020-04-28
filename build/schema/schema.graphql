@@ -1,5 +1,7 @@
 type Query {
+    "Muentra un Hola Mundo"
     hola: String!
+    "Muestra un Homa y el nombre que se envia"
     holaConNombre(nombre: String!): String!
     holaCursoGraphQL: String!
 }
